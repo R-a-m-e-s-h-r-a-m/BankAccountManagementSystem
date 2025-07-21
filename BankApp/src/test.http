@@ -1,0 +1,14 @@
+### ✅ Create a new account
+POST http://localhost:8080/api/accounts/create?accountNumber=123&accountHolder=Ramesh
+
+### ✅ Deposit money into account
+POST http://localhost:8080/api/accounts/deposit?accountNumber=123&amount=500
+
+### ✅ Withdraw money from account
+POST http://localhost:8080/api/accounts/withdraw?accountNumber=123&amount=200
+
+### ✅ Get account details
+GET http://localhost:8080/api/accounts/details?accountNumber=123
+
+### ✅ Delete account
+DELETE http://localhost:8080/api/accounts/remove?accountNumber=123
